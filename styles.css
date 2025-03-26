@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px;
+}
+
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: dotted;  
+  width: 100%;
+  border-radius: 5px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
